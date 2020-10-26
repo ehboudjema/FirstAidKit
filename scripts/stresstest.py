@@ -9,6 +9,7 @@ import random
 def get_random_string(length):
     letters = string.ascii_lowercase
     result_str = ''.join(random.choice(letters) for i in range(length))
+    retunr result_str
 
 def thread_function(name):
     logging.info("V2 launched !!!")
