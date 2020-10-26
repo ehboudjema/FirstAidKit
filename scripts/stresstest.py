@@ -2,7 +2,7 @@ import logging
 import threading
 import time
 import sys
-import request
+import requests
 import string
 import random
 
